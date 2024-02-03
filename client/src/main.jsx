@@ -11,7 +11,9 @@ import Glossary from './pages/Glossary.jsx';
 import Signup from './pages/Signup.jsx';
 import Blog from './pages/Blog.jsx';
 import SingleBlog from './pages/SingleBlog';
+import Contact from './pages/Contact.jsx';
 import './index.css'
+
 
 const router = createBrowserRouter([
   {
@@ -28,11 +30,11 @@ const router = createBrowserRouter([
        element: <About />
       },
       {
-        path: '/other-works',
+        path: '/books',
         element: <Books />
       },
       {
-        path: '/glossary',
+        path: '/extras',
         element: <Glossary />
       },
       {
@@ -46,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: '/blogs/:id',
         element: <SingleBlog />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       },
     ]
   },

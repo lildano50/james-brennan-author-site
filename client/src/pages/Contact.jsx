@@ -1,16 +1,12 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
-const Home = () => {
+const Contact = () => {
 
   
         return (
-            <div>
-                <h1>HEADER TEST</h1>
-            </div>
+            <div></div>
         )
 };
 
-export default Home;
-
-
+export default Contact;
