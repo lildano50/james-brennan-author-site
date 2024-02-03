@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 
+
 const Header = () => {
 
 
 
     return (
         <div>
+            <h1>James Brennan</h1>
             <nav>
-                <ul>
+                <ul style = {{listStyleType: "none"}}>
                     <Link to="/"><li></li>Home</Link>
                     <Link to="/books"><li>Books</li></Link>
                     <Link to="/about"><li>About</li></Link>
