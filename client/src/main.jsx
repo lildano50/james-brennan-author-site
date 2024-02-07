@@ -12,8 +12,14 @@ import Signup from './pages/Signup.jsx';
 import Blog from './pages/Blog.jsx';
 import SingleBlog from './pages/SingleBlog';
 import Contact from './pages/Contact.jsx';
-import './index.css'
 
+//Individual Books
+import Dust from './pages/Books/Dust.jsx';
+import Outlaws from './pages/Books/Outlaws.jsx';
+import Midnight from './pages/Books/Midnight.jsx';
+import Ruins from './pages/Books/Ruins.jsx';
+
+import './index.css'
 
 const router = createBrowserRouter([
   {
@@ -52,6 +58,22 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/dust-on-the-trail',
+        element: <Dust />
+      },
+      {
+        path: '/outlaws-on-the-bayou',
+        element: <Outlaws />
+      },
+      {
+        path: '/midnight-in-the-delta',
+        element: <Midnight />
+      },
+      {
+        path: '/ruins-on-the-savannah',
+        element: <Ruins />
       },
     ]
   },
